@@ -1,3 +1,4 @@
+//sobre la carpeta del proyecto correr el código npm install xmlhttprequest --save
 let XMLHttpRequest= require('xmlhttprequest').XMLHttpRequest
 const  fetchData = (url_api)=>{
     return new Promise((resolve,reject)=>{       
