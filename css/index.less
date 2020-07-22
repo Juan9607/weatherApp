@@ -1,0 +1,185 @@
+@import "globales.less";
+/*First Element*/
+.banner{
+    width: 90%;
+    height: 50vh;
+    background-color: red;
+    margin: 40px auto;
+    border-radius: 40px;
+    background-image: url('https://cdn.pixabay.com/photo/2015/04/20/13/18/rainbow-731209_960_720.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.banner h1{
+    padding-top: 150px;
+    padding-left: 150px;
+    color:#7D69EA;
+}
+.banner span{
+    color:#7D69EA;
+}
+.TodayWeather{
+    width: 100px;
+    height: 28%;
+    background-color: #7D6AEA;
+    position: absolute;
+    top:15%;
+    left:0;
+    border-radius: 0  40px 40px 0;  
+}
+#TodayWeather-icon{
+    width: 100%;
+    height: 50%;
+    background-color: #323289;
+    border-radius: 0  20px 20px 0;
+    text-align: center;
+    color: white;
+}
+#TodayWeather-TodayWeather{
+    padding-top: 20px;
+    color:white; 
+    font-size:30px;
+    padding-top: -20px;
+}
+#TodayWeather-TodayWeather span{
+    color:white;
+    font-size:10px;
+}
+/*.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}*/
+
+/*Second Elements grid (Left part)*/
+
+.content{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.left-content{
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 300px;
+}
+.left-content h5 img{
+    margin-left: 5px;
+}
+.DaysForecast-card {
+    width:75%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid #F2F2F2;
+    border-bottom: 5px solid #F2F2F2;
+}
+
+.ToVisit{
+    width: 75%;
+    height: 96%;
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/26/16/06/architecture-2175925__340.jpg');
+    border-radius: 40px;
+    color: white;
+    padding: 20px;
+    padding-left: 15px;
+}
+.Reviews-card-top {
+    width:85%;
+    height: 30%;
+    background-image: url('https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874__340.jpg');
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    padding-left: 15px;
+}
+.Reviews-card-bottom {
+    width:85%;
+    height: 55%;
+    margin-top: 20px;
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/24/08/56/color-3256055__340.jpg');
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    padding-left: 15px;
+}
+.DaysForecast-card-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #7D69EA;
+    border-radius: 20px;
+}
+
+
+/*Second Elements grid (Right part)*/
+.right-content{
+    margin-top: -150px;
+    margin-bottom: 10px;
+}
+.Big-card {
+    width: 85%;
+    height: 30%;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    
+}
+.City{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Big-card-CityInfo{
+    margin: auto;
+}
+.image-weather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Big-card-Temperature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Big-card-Temperature h2{
+    border-right: 1px solid black;
+    padding-right: 10px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.image-weather{
+    margin: 0;
+    padding: 0;
+    background-color:#DCE8F4;
+    border-radius: 15px;
+}
+.addLocations{
+    text-decoration: none;
+    color: #A6A4C9;
+    border-radius: 20px;
+    padding: 5px 50px;
+    background-color: #EEEDFB;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+/*iconos*/
+.icon-sun{
+    color: yellow;
+    font-size: 40px;
+    text-align: center;
+}
+.icon-cloud{
+    color:#7D69EA;
+    font-size: 40px;
+    text-align: center;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Weather forecast</title>
+    <link rel="stylesheet" href="iconos/style.css"/><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css"/>
+  </head>
+  <body>
+    <section class="banner">
+      <h1>Bogotá<span class="icon-location"></span></h1>
+      <div class="TodayWeather">
+        <div id="TodayWeather-icon"></div>
+        <div id="TodayWeather-TodayWeather">
+        </div>
+      </div>
+    </section>
+    <section class="content">
+      <div class="left-content">
+        <h1>3 Days Forecast</h1>
+        <h1>Place to visit</h1>
+        <h5>+ Top reviews
+            <img src="https://cdn.pixabay.com/photo/2017/08/01/08/29/people-2563491__340.jpg" alt="" width="40px"/>
+            <img src="https://cdn.pixabay.com/photo/2017/08/01/08/29/people-2563491__340.jpg" alt="sacl" width="40px"/>
+            <img src="https://cdn.pixabay.com/photo/2017/08/01/08/29/people-2563491__340.jpg" alt="sacl" width="40px"/>
+            <img src="https://cdn.pixabay.com/photo/2017/08/01/08/29/people-2563491__340.jpg" alt="sacl" width="40px"/></h5>
+        <div class="3DaysForecast"> 
+          <div class="DaysForecast-card" id="FirstDaysForecast_card"> 
+
+          </div>
+          <div class="DaysForecast-card" id="SecondDaysForecast_card">
+
+          </div>
+          <div class="DaysForecast-card" id="ThirdDaysForecast_card">
+
+          </div>
+        </div>
+        <div class="ToVisit">
+          <p>Arab Street</p>
+          <p>Singapure</p>
+        </div>
+        <div class="Reviews">
+          <div class="Reviews-card-top">
+            <p>Art Science</p>
+            <p>Museum</p>
+          </div>
+
+          <div class="Reviews-card-bottom">
+            <p>Found of</p>
+            <p>Health</p>  
+          </div>
+        </div>
+      </div>
+      <div class="right-content">
+        <div class="Big-card City">
+          <div class="image-weather"><span class="span icon-cloud"></span></div>
+          <div class="Big-card-Temperature">
+            <h2>12°C</h2>
+          </div>
+          <div class="Big-card-CityInfo">
+            <h2>Lyon</h2>
+            <p>Francia</p>
+          </div>
+          <p>Humidity</p>
+          <p>West</p>
+          <p>0.5km/h</p>
+        </div>
+        <div class="Big-card City">
+          <div class="image-weather"><span class="span icon-cloud"></span></div>
+          <div class="Big-card-Temperature">
+            <h2>12°C</h2>
+          </div>
+          <div class="Big-card-CityInfo">
+            <h2>Paris</h2>
+            <p>Francia</p>
+          </div>
+          <p>Humidity</p>
+          <p>West</p>
+          <p>0.5km/h</p>
+        </div>
+        <div class="Big-card last-big"><a class="addLocations" href="#">Add Locations</a><img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321__340.png" alt="" width="100%" height="100%"/></div>
+      </div>
+    </section>
+    <script src="/js/bundle.js"></script>
+  </body>
+</html>
